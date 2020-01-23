@@ -56,7 +56,7 @@ class TestModel(unittest.TestCase):
 
     def test_correctscores(self):
         primitives = set([seq[i:i + 2] for i in range(len(seq) - 1)])
-        model = PARSER(primitives=primitives, readingframe=2)
+        model = PARSER.PARSER(primitives=primitives, readingframe=2)
         model.run(seq, perceptsizes=perceptsizes)
         # next is present with insignificant weight because of small rounding
         # differences between original PARSER and PyPARSER, remove it
