@@ -25,7 +25,6 @@ Installation
 ------------
 
 As long as there is no official release I recommend working in Anaconda.
-Instructions below assume you also want to use the agldata library.
 
 Create an environment::
 
@@ -41,10 +40,9 @@ Windows::
 
     $ conda activate agltest
 
-Install the pyagl and agldata master repo::
+Install the pyagl master repo::
 
-    $ pip install git+https://git.science.uu.nl/G.J.L.Beckers/pyagl@master
-    $ pip install git+https://git.science.uu.nl/G.J.L.Beckers/agldata@master
+    $ pip install git+https://git.science.uu.nl/G.J.L.Beckers//pyagl@master
 
 
 If you want to remove the conda environment later::
