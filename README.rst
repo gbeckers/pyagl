@@ -42,7 +42,7 @@ Windows::
 
 Install the pyagl master repo::
 
-    $ pip install git+https://git.science.uu.nl/G.J.L.Beckers//pyagl@master
+    $ pip install  git+https://github.com/gbeckers//pyagl@master
 
 
 If you want to remove the conda environment later::
