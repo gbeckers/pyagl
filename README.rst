@@ -28,7 +28,7 @@ As long as there is no official release I recommend working in Anaconda.
 
 Create an environment::
 
-    $ conda create -n agltest pip python=3.6 jupyterlab git pyaml pandas
+    $ conda create -n agltest pip python=3.7 jupyterlab git pyaml pandas matplotlib
 
 Switch to this new environment:
 
